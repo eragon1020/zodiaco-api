@@ -1,17 +1,26 @@
 {
   "name": "characters-service",
   "version": "1.0.0",
+  "description": "Servicio de personajes de Saint Seiya",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "seed": "node src/seed.js"
+    "dev": "nodemon src/index.js",
+    "seed": "node seed.js",
+    "seed:force": "node --trace-warnings seed.js"
   },
+  "keywords": ["api", "saints", "characters"],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.21.2",
-    "mongoose": "^7.6.3",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

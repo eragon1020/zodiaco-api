@@ -1,0 +1,7 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "cd microservices/characters && node src/index.js"
+  }
+}

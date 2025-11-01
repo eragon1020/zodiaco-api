@@ -1,10 +1,9 @@
 {
-  "name": "zodiaco-root",
+  "name": "saints_project",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cd microservices/characters && node src/index.js",
-    "build": "cd microservices/characters && npm install"
+    "start": "cd microservices/characters && npm install && node src/index.js"
   },
   "engines": {
     "node": "18.x"

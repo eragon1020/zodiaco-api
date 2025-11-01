@@ -1,7 +1,12 @@
 {
-  "name": "root",
+  "name": "zodiaco-root",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cd microservices/characters && node src/index.js"
+    "start": "cd microservices/characters && node src/index.js",
+    "build": "cd microservices/characters && npm install"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
